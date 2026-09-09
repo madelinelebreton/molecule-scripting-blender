@@ -10,6 +10,20 @@ The script reads atomic coordinates and bond information from a molecular struct
 * Generate 3D atom models with element-specific materials
 * Generate single, double, and triple bonds
 
+  
+<div align="center">
+  <img height="300" alt="NO3R_blenderscripting" src="https://github.com/user-attachments/assets/6d6009ee-57c1-40c2-8a54-cd1f180b7247" />
+  <img height="300" alt="NO3R_molecularstructure" src="https://github.com/user-attachments/assets/a180f574-46d1-428f-936b-7367cee9f482" />
+  <p><em>After using the script in Blender, molecular models can be visualized and manipulated.</em></p>
+</div>
+
+<div align="center">
+  <img height="300" alt="NO3R_moleculecnt" src="https://github.com/user-attachments/assets/ed98843e-8970-4eee-8b5c-0e1c64eca36e" />
+  <img height="300" alt="NO3R_journalcover" src="https://github.com/user-attachments/assets/2d796d78-f1e9-4491-a44c-15c30d7cc1f9" />
+  <p><em>This script was used to illustrate a cover for ACS Catalysis.</em></p>
+</div>
+
+
 ## How It Works
 
 The script:
