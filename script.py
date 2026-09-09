@@ -10,7 +10,10 @@ import numpy as np
 import re
 import csv
 
-#------------------------------------------------------------#    
+#------------------------------------------------------------#  
+# write the correct path to your molecule file
+file = open('path/to/molecule.sdf', 'r')mol=file.read()
+
 # Clear old objects
 context = bpy.context
 scene = context.scene
@@ -83,8 +86,6 @@ def rotation_matrix(axis, theta):
 
 #------------------------------------------------------------#
 # Open .mol file 
-file = open('Users/madelinelebreton/Downloads/TPP.sdf', 'r')
-mol=file.read()
 rows = mol.split('\n')
 count_line = rows[3].strip() # Counts line
 counts = re.split('\s+', count_line.strip())
